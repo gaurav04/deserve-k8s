@@ -13,6 +13,7 @@ kubectl  apply -f nginx-ingress/nginx-ingress.yaml
 ```
 
 ## 1.3 Install ArgoCD
+
 ```
 kubectl create namespace argocd
 kubectl  apply -n argocd -f argo-cd/install.yaml 
